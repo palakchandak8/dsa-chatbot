@@ -1,4 +1,9 @@
 {
+  "author": "Palak Chandak <palak.chandak@somaiya.edu>",
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/palakchandak8/dsa-chatbot"
+  },
   "name": "vite_react_shadcn_ts",
   "private": true,
   "version": "0.0.0",

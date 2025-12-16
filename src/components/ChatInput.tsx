@@ -80,6 +80,20 @@ export function ChatInput({ onSend, isLoading, suggestions }: ChatInputProps) {
       <p className="text-xs text-muted-foreground text-center mt-3">
         Press Enter to send, Shift+Enter for new line
       </p>
+      <div className="text-xs text-muted-foreground text-center mt-6">
+          Built by{" "}
+          <a
+            href="https://github.com/palakchandak8"
+            target="_blank"
+            className="underline"
+          >
+            Palak Chandak
+          </a>
+          {" · "}
+          <a href="mailto:palak.chandak@somaiya.edu" className="underline">
+            Contact
+          </a>
+      </div>
     </div>
   );
 }

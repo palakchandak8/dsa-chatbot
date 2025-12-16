@@ -52,7 +52,7 @@ const Index = () => {
       >
         <TopicSidebar onTopicSelect={onTopicSelect} selectedTopic={selectedTopic} />
       </div>
-
+      
       {/* Main Chat Area */}
       <main className="flex-1 flex flex-col min-w-0">
         {/* Header */}

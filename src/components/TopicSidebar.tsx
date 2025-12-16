@@ -87,6 +87,21 @@ export function TopicSidebar({ onTopicSelect, selectedTopic }: TopicSidebarProps
           <p className="text-xs text-muted-foreground">
             💡 Tip: Ask me anything about DSA!
           </p>
+        <div className="text-sm text-muted-foreground mt-6">
+          Built by{" "}
+          <a
+            href="https://github.com/palakchandak8"
+            target="_blank"
+            className="underline"
+          >
+            Palak Chandak
+          </a>
+          {" · "}
+          <a href="mailto:palak.chandak@somaiya.edu" className="underline">
+            Contact
+          </a>
+        </div>
+
         </div>
       </div>
     </aside>
